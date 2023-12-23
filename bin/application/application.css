@@ -1,0 +1,23 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root {
+	-fx-background-color: "black";
+}
+
+.label {
+	-fx-font-family: "Lucida Console";
+	-fx-text-fill: "white";
+}
+
+.button {
+	-fx-font-family: "Lucida Console";
+	-fx-font-size: 20px;
+	-fx-text-fill: "#64797a";
+	-fx-background-color: "#dddece";
+	-fx-border-color: "#b08686";
+	-fx-border-width: 3px;
+}
+
+.button:hover {
+    -fx-background-color: gray;
+    -fx-border-color: "#36281f";
+}
